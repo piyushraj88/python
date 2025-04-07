@@ -2,21 +2,16 @@
 
 Big O values indicate how does the given algorithm scale for a given size of input. The common values and their implications are:
 
-Big 0    Scalability
+| Big-O Notation | Scalability | Remarks     |
+|----------------|-------------|-------------|
+| O(1)           | Excellent   | Constant time – best case            |
+| O(log n)       | Good        | Logarithmic – efficient for search   |
+| O(n)           | Average     | Linear – acceptable for most tasks   |
+| O(n log n)     | Bad         | Common in sorting – still manageable |
+| O(n²)          | Very Bad    | Quadratic – slow with large data     |
+| O(2ⁿ)          | Very Bad    | Exponential – impractical            |
+| O(n!)          | Very Bad    | Factorial – unusable beyond small n  |
 
-1	       Excellent
-
-log n	  Good
-
-n	      Average
-
-nlogn	  Bad
-
-n^2	    Very Bad
-
-2^n	    Very Bad
-
-n!	    Very Bad
 
 
 Read further here: http://bigocheatsheet.com/
